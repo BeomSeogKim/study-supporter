@@ -1,0 +1,10 @@
+[[member-save]]
+=== 신규 회원 가입
+
+==== HTTP Request
+include::{snippets}/member-save/http-request.adoc[]
+include::{snippets}/member-save/request-fields.adoc[]
+
+==== HTTP Response
+include::{snippets}/member-save/http-response.adoc[]
+include::{snippets}/member-save/response-fields.adoc[]
