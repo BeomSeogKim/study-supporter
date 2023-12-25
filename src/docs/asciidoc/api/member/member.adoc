@@ -1,6 +1,8 @@
 [[member-save]]
 === 신규 회원 가입
 
+회원 가입 관련해 성별은 `MALE`, `FEMALE` 만 지원합니다.
+
 ==== HTTP Request
 include::{snippets}/member-save/http-request.adoc[]
 include::{snippets}/member-save/request-fields.adoc[]

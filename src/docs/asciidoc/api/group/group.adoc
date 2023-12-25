@@ -1,0 +1,13 @@
+[[group-save]]
+=== 신규 그룹 생성
+
+신규 그룹 생성과 관련해 theme은 현재 `CS`, `CODING_TEST` 만 지원합니다.
+
+==== HTTP Request
+include::{snippets}/group-save/http-request.adoc[]
+include::{snippets}/group-save/query-parameters.adoc[]
+include::{snippets}/group-save/request-fields.adoc[]
+
+==== HTTP Response
+include::{snippets}/group-save/http-response.adoc[]
+include::{snippets}/group-save/response-fields.adoc[]

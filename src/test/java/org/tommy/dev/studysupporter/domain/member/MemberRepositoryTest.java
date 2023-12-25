@@ -1,6 +1,5 @@
 package org.tommy.dev.studysupporter.domain.member;
 
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,10 +13,6 @@ class MemberRepositoryTest extends IntegrationTestSupport {
     @Autowired
     MemberRepository memberRepository;
 
-    @AfterEach
-    void tearDown() {
-        memberRepository.deleteAllInBatch();
-    }
 
     @DisplayName("기본 Member 생성 테스트")
     @Test

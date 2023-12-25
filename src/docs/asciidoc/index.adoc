@@ -13,3 +13,9 @@ endif::[]
 == Member API
 
 include::api/member/member.adoc[]
+
+
+[[Group-API]]
+== GROUP API
+
+include::api/group/group.adoc[]
